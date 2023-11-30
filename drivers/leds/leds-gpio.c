@@ -185,7 +185,7 @@ static struct gpio_leds_priv *gpio_leds_create(struct platform_device *pdev)
 }
 
 static const struct of_device_id of_gpio_leds_match[] = {
-	{ .compatible = "gpio-leds", },
+	// { .compatible = "gpio-leds", },
 	{},
 };
 

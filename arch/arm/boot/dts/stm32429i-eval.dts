@@ -102,22 +102,22 @@
 		regulator-max-microvolt = <3300000>;
 	};
 
-	leds {
-		compatible = "gpio-leds";
-		led-green {
-			gpios = <&gpiog 6 1>;
-			linux,default-trigger = "heartbeat";
-		};
-		led-orange {
-			gpios = <&gpiog 7 1>;
-		};
-		led-red {
-			gpios = <&gpiog 10 1>;
-		};
-		led-blue {
-			gpios = <&gpiog 12 1>;
-		};
-	};
+	// leds {
+	// 	compatible = "gpio-leds";
+	// 	led-green {
+	// 		gpios = <&gpiog 6 1>;
+	// 		linux,default-trigger = "heartbeat";
+	// 	};
+	// 	led-orange {
+	// 		gpios = <&gpiog 7 1>;
+	// 	};
+	// 	led-red {
+	// 		gpios = <&gpiog 10 1>;
+	// 	};
+	// 	led-blue {
+	// 		gpios = <&gpiog 12 1>;
+	// 	};
+	// };
 
 	gpio-keys {
 		compatible = "gpio-keys";
